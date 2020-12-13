@@ -1,0 +1,151 @@
+  /*body {
+    background-color: #add8e6;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgba(66, 65, 65, 0.678);
+    
+  }*/
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+
+  a {
+    color: rgba(66, 65, 65, 0.897);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  center {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+  }
+  san{
+    /*width: 20%;*/
+    color: rgba(66, 65, 65, 0.884);
+    font-family: sans-serif
+  }
+
+  belgrano{
+    color: black;
+    font-family: 'Belgrano';
+    font-size: 22px;
+  }
+
+  right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  table {
+    background-color: #88c3d6fb;
+    border-radius: 20px;
+    /*border: 1px solid black;*/
+  }
+
+  label{
+    border-radius: 30px;
+  }
+
+  input{
+    border-radius: 15px;
+    background-color: #5ca3bbfb;
+  }
+
+  img{
+    margin: 10px;
+    border: black;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: b#000000;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .topnav a:hover {
+    background-color:rgba(18, 29, 133, 0.473) ;
+    color: black;
+    border-radius: 20px;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(18, 29, 133, 0.308);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:  rgba(18, 29, 133, 0.678);
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  input[type=submit] {
+    background-color: #5ca3bbfb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgba(18, 29, 133, 0.473);
+  }
+
+  option{
+    background-color:rgba(18, 29, 133, 0.473) ;
+    border-radius: 15px;
+  }
